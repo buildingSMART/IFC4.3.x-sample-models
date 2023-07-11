@@ -1,5 +1,3 @@
-# pyparsing lark-parser==0.12.0 networkx requests sqlalchemy sqlalchemy-utils
-
 # obtain most recent express schema
 git clone --depth 1 https://github.com/buildingSMART/IFC4.3.x-output /tmp/IFC4.3.x-output
 
