@@ -1,7 +1,4 @@
-# This workflow will install Python dependencies, run tests and lint with a single version of Python
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
-name: Python application
+name: Model validation
 
 on:
   push:
@@ -30,7 +27,7 @@ jobs:
         mkdir -p ~/.local/lib/python3.10/site-packages
         wget https://s3.amazonaws.com/ifcopenshell-builds/ifcopenshell-python-310-v0.7.0-fc50bdd-linux64.zip
         unzip ifcopenshell-python-310-v0.7.0-fc50bdd-linux64.zip -d ~/.local/lib/python3.10/site-packages
-        wget -O ~/.local/lib/python3.10/site-packages/ifcopenshell/entity_instance.py https://github.com/IfcOpenShell/IfcOpenShell/blob/2dc4bbf8cdee1db784808c89930020eb7c17a7ba/src/ifcopenshell-python/ifcopenshell/entity_instance.py
+        wget -O ~/.local/lib/python3.10/site-packages/ifcopenshell/entity_instance.py https://raw.githubusercontent.com/IfcOpenShell/IfcOpenShell/2dc4bbf8cdee1db784808c89930020eb7c17a7ba/src/ifcopenshell-python/ifcopenshell/entity_instance.py
     - name: Model validation
       run: |
         ./validate.sh
