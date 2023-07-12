@@ -118,7 +118,7 @@ DATA;
 #236= IFCSTRUCTURALPOINTCONNECTION('3539fAVu96i8mFr0cgUqeI',#209,'Point Connection #1',$,$,$,#235,#242,$);
 
 /* assignment of connections and members to the analysis model */
-#239= IFCRELASSIGNSTOGROUP('3mDDAcu390$A5orhhUv4qv',#209,$,$,(#236,#247,#228,#271,#280,#263,#296),.PRODUCT.,#216);
+#239= IFCRELASSIGNSTOGROUP('3mDDAcu390$A5orhhUv4qv',#209,$,$,(#236,#247,#228,#271,#280,#263,#296),$,#216);
 
 /* fixed restraint at node underneath left column */
 #242= IFCBOUNDARYNODECONDITION('Fixed',IFCBOOLEAN(.T.),IFCBOOLEAN(.T.),IFCBOOLEAN(.T.),IFCBOOLEAN(.T.),IFCBOOLEAN(.T.),IFCBOOLEAN(.T.));
@@ -181,7 +181,7 @@ DATA;
 #327= IFCSTRUCTURALLOADLINEARFORCE('Nominal',$,$,-100.,$,$,$);
 #329= IFCSTRUCTURALLOADLINEARFORCE('Nominal',$,$,-100.,$,$,$);
 #335= IFCRELCONNECTSSTRUCTURALACTIVITY('0XvroPpOb4FPsGBZQ$pgtA',#209,$,$,#296,#317);
-#337= IFCRELASSIGNSTOGROUP('2OygXKIkL35eDtUalQjese',#209,$,$,(#317),.PRODUCT.,#312);
+#337= IFCRELASSIGNSTOGROUP('2OygXKIkL35eDtUalQjese',#209,$,$,(#317),$,#312);
 
 /* Material profile set associated with each structural member */
 #340= IFCMATERIALPROFILESET($,$,(#342),$);
@@ -215,7 +215,7 @@ DATA;
 #2735= IFCRELCONNECTSSTRUCTURALACTIVITY('2nVw9fFML1G8QuiGnXOdEh',#209,$,$,#236,#2733);
 
 /* Each reaction is assigned to the result group. */
-#2737= IFCRELASSIGNSTOGROUP('2dN5hErLP9zB0e5nA$yT0F',#209,$,$,(#2733,#2741,#2747,#2753,#2759,#2765,#2773,#2781,#2789),.PRODUCT.,#2729);
+#2737= IFCRELASSIGNSTOGROUP('2dN5hErLP9zB0e5nA$yT0F',#209,$,$,(#2733,#2741,#2747,#2753,#2759,#2765,#2773,#2781,#2789),$,#2729);
 
 /* The node below the left column has a reaction with force upwards and to the right and moment counter-clockwise as facing +Y */
 #2740= IFCSTRUCTURALLOADSINGLEFORCE($,1422.66326629449,0.,2278.52897011915,0.,66694.8548930371,0.);
