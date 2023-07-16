@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition [notYetAssigned]','Option [Filter: VisibleElements]'),'2;1');
 FILE_NAME('grid placement.ifc','2013-07-13T10:17:34',('Architect'),('Building Designer Office'),'any','any','The authorising person');
-FILE_SCHEMA(('IFC4'));
+FILE_SCHEMA(('IFC4X3_ADD1'));
 ENDSEC;
 
 DATA;
@@ -115,7 +115,7 @@ DATA;
 #338= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#327));
 #344= IFCPRODUCTDEFINITIONSHAPE($,$,(#338));
 #348= IFCVIRTUALGRIDINTERSECTION((#268,#183),(0.,0.,0.));
-#351= IFCGRIDPLACEMENT(#348,$);
+#351= IFCGRIDPLACEMENT(#280,#348,$);
 #354= IFCMATERIAL('Structural Concrete',$,$);
 #357= IFCDIRECTION((6.1232340E-17,1.));
 #505= IFCRELASSOCIATESMATERIAL('2ATJkq8SP8Nwm_CddbSUNm',#13,$,$,(#293),#354);
@@ -131,7 +131,7 @@ DATA;
 #556= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#553));
 #562= IFCPRODUCTDEFINITIONSHAPE($,$,(#556));
 #566= IFCVIRTUALGRIDINTERSECTION((#268,#166),(0.,0.,0.));
-#569= IFCGRIDPLACEMENT(#566,$);
+#569= IFCGRIDPLACEMENT(#280,#566,$);
 #572= IFCRELASSOCIATESMATERIAL('3nfekYZyrDse$wWaYIT6nT',#13,$,$,(#519),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -145,7 +145,7 @@ DATA;
 #619= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#616));
 #625= IFCPRODUCTDEFINITIONSHAPE($,$,(#619));
 #629= IFCVIRTUALGRIDINTERSECTION((#268,#149),(0.,0.,0.));
-#632= IFCGRIDPLACEMENT(#629,$);
+#632= IFCGRIDPLACEMENT(#280,#629,$);
 #635= IFCRELASSOCIATESMATERIAL('0snYjDQCP0eQo4c1JRlcY5',#13,$,$,(#582),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -159,7 +159,7 @@ DATA;
 #682= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#679));
 #688= IFCPRODUCTDEFINITIONSHAPE($,$,(#682));
 #692= IFCVIRTUALGRIDINTERSECTION((#268,#132),(0.,0.,0.));
-#695= IFCGRIDPLACEMENT(#692,$);
+#695= IFCGRIDPLACEMENT(#280,#692,$);
 #698= IFCRELASSOCIATESMATERIAL('1ebZRfr2H3thQgmzsIxFDn',#13,$,$,(#645),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -173,7 +173,7 @@ DATA;
 #745= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#742));
 #751= IFCPRODUCTDEFINITIONSHAPE($,$,(#745));
 #755= IFCVIRTUALGRIDINTERSECTION((#268,#115),(0.,0.,0.));
-#758= IFCGRIDPLACEMENT(#755,$);
+#758= IFCGRIDPLACEMENT(#280,#755,$);
 #761= IFCRELASSOCIATESMATERIAL('2b6fbnDeD7FAJbwuuFP7fd',#13,$,$,(#708),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -187,7 +187,7 @@ DATA;
 #808= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#805));
 #814= IFCPRODUCTDEFINITIONSHAPE($,$,(#808));
 #818= IFCVIRTUALGRIDINTERSECTION((#251,#183),(0.,0.,0.));
-#821= IFCGRIDPLACEMENT(#818,$);
+#821= IFCGRIDPLACEMENT(#280,#818,$);
 #824= IFCRELASSOCIATESMATERIAL('1zEryVYB50Y99wJfI_CxFW',#13,$,$,(#771),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -201,7 +201,7 @@ DATA;
 #871= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#868));
 #877= IFCPRODUCTDEFINITIONSHAPE($,$,(#871));
 #881= IFCVIRTUALGRIDINTERSECTION((#251,#166),(0.,0.,0.));
-#884= IFCGRIDPLACEMENT(#881,$);
+#884= IFCGRIDPLACEMENT(#280,#881,$);
 #887= IFCRELASSOCIATESMATERIAL('04YhPfxCb18voKDnykCPKa',#13,$,$,(#834),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -215,7 +215,7 @@ DATA;
 #934= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#931));
 #940= IFCPRODUCTDEFINITIONSHAPE($,$,(#934));
 #944= IFCVIRTUALGRIDINTERSECTION((#251,#149),(0.,0.,0.));
-#947= IFCGRIDPLACEMENT(#944,$);
+#947= IFCGRIDPLACEMENT(#280,#944,$);
 #950= IFCRELASSOCIATESMATERIAL('3ADJGROcj1reAZrek3Ih43',#13,$,$,(#897),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -229,7 +229,7 @@ DATA;
 #997= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#994));
 #1003= IFCPRODUCTDEFINITIONSHAPE($,$,(#997));
 #1007= IFCVIRTUALGRIDINTERSECTION((#251,#132),(0.,0.,0.));
-#1010= IFCGRIDPLACEMENT(#1007,$);
+#1010= IFCGRIDPLACEMENT(#280,#1007,$);
 #1013= IFCRELASSOCIATESMATERIAL('1ej_tV7eL8vuX6xJj3Xoxn',#13,$,$,(#960),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -243,7 +243,7 @@ DATA;
 #1060= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1057));
 #1066= IFCPRODUCTDEFINITIONSHAPE($,$,(#1060));
 #1070= IFCVIRTUALGRIDINTERSECTION((#251,#115),(0.,0.,0.));
-#1073= IFCGRIDPLACEMENT(#1070,$);
+#1073= IFCGRIDPLACEMENT(#280,#1070,$);
 #1076= IFCRELASSOCIATESMATERIAL('0L2mkv1m9AjAgDU16VxxRY',#13,$,$,(#1023),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -257,7 +257,7 @@ DATA;
 #1123= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1120));
 #1129= IFCPRODUCTDEFINITIONSHAPE($,$,(#1123));
 #1133= IFCVIRTUALGRIDINTERSECTION((#234,#183),(0.,0.,0.));
-#1136= IFCGRIDPLACEMENT(#1133,$);
+#1136= IFCGRIDPLACEMENT(#280,#1133,$);
 #1139= IFCRELASSOCIATESMATERIAL('2DFTpVzLb0GOz94dnHBIIq',#13,$,$,(#1086),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -271,7 +271,7 @@ DATA;
 #1186= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1183));
 #1192= IFCPRODUCTDEFINITIONSHAPE($,$,(#1186));
 #1196= IFCVIRTUALGRIDINTERSECTION((#234,#166),(0.,0.,0.));
-#1199= IFCGRIDPLACEMENT(#1196,$);
+#1199= IFCGRIDPLACEMENT(#280,#1196,$);
 #1202= IFCRELASSOCIATESMATERIAL('2pkwqk6HjC78QH3P0jN49W',#13,$,$,(#1149),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -285,7 +285,7 @@ DATA;
 #1249= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1246));
 #1255= IFCPRODUCTDEFINITIONSHAPE($,$,(#1249));
 #1259= IFCVIRTUALGRIDINTERSECTION((#234,#149),(0.,0.,0.));
-#1262= IFCGRIDPLACEMENT(#1259,$);
+#1262= IFCGRIDPLACEMENT(#280,#1259,$);
 #1265= IFCRELASSOCIATESMATERIAL('0jQTVYfXPFTe1hDM_MkTM2',#13,$,$,(#1212),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -299,7 +299,7 @@ DATA;
 #1312= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1309));
 #1318= IFCPRODUCTDEFINITIONSHAPE($,$,(#1312));
 #1322= IFCVIRTUALGRIDINTERSECTION((#234,#132),(0.,0.,0.));
-#1325= IFCGRIDPLACEMENT(#1322,$);
+#1325= IFCGRIDPLACEMENT(#280,#1322,$);
 #1328= IFCRELASSOCIATESMATERIAL('1LPl3a4iPBlOYvfIxAwQj2',#13,$,$,(#1275),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -313,7 +313,7 @@ DATA;
 #1375= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1372));
 #1381= IFCPRODUCTDEFINITIONSHAPE($,$,(#1375));
 #1385= IFCVIRTUALGRIDINTERSECTION((#234,#115),(0.,0.,0.));
-#1388= IFCGRIDPLACEMENT(#1385,$);
+#1388= IFCGRIDPLACEMENT(#280,#1385,$);
 #1391= IFCRELASSOCIATESMATERIAL('3sjfDIOc9F1ec0f1lD90H2',#13,$,$,(#1338),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -327,7 +327,7 @@ DATA;
 #1438= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1435));
 #1444= IFCPRODUCTDEFINITIONSHAPE($,$,(#1438));
 #1448= IFCVIRTUALGRIDINTERSECTION((#217,#183),(0.,0.,0.));
-#1451= IFCGRIDPLACEMENT(#1448,$);
+#1451= IFCGRIDPLACEMENT(#280,#1448,$);
 #1454= IFCRELASSOCIATESMATERIAL('1nQn_EHJ1CAgQ3A_5kVjgu',#13,$,$,(#1401),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -341,7 +341,7 @@ DATA;
 #1501= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1498));
 #1507= IFCPRODUCTDEFINITIONSHAPE($,$,(#1501));
 #1511= IFCVIRTUALGRIDINTERSECTION((#217,#166),(0.,0.,0.));
-#1514= IFCGRIDPLACEMENT(#1511,$);
+#1514= IFCGRIDPLACEMENT(#280,#1511,$);
 #1517= IFCRELASSOCIATESMATERIAL('3hdVqzwW58b8CHoK91M_e3',#13,$,$,(#1464),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -355,7 +355,7 @@ DATA;
 #1564= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1561));
 #1570= IFCPRODUCTDEFINITIONSHAPE($,$,(#1564));
 #1574= IFCVIRTUALGRIDINTERSECTION((#217,#149),(0.,0.,0.));
-#1577= IFCGRIDPLACEMENT(#1574,$);
+#1577= IFCGRIDPLACEMENT(#280,#1574,$);
 #1580= IFCRELASSOCIATESMATERIAL('2qMelZARf5XeVVPFD8KNr_',#13,$,$,(#1527),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -369,7 +369,7 @@ DATA;
 #1627= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1624));
 #1633= IFCPRODUCTDEFINITIONSHAPE($,$,(#1627));
 #1637= IFCVIRTUALGRIDINTERSECTION((#217,#132),(0.,0.,0.));
-#1640= IFCGRIDPLACEMENT(#1637,$);
+#1640= IFCGRIDPLACEMENT(#280,#1637,$);
 #1643= IFCRELASSOCIATESMATERIAL('1o9JnTwfr2Evj4BwWdpHfT',#13,$,$,(#1590),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -383,7 +383,7 @@ DATA;
 #1690= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1687));
 #1696= IFCPRODUCTDEFINITIONSHAPE($,$,(#1690));
 #1700= IFCVIRTUALGRIDINTERSECTION((#217,#115),(0.,0.,0.));
-#1703= IFCGRIDPLACEMENT(#1700,$);
+#1703= IFCGRIDPLACEMENT(#280,#1700,$);
 #1706= IFCRELASSOCIATESMATERIAL('3diy35i5v7ihfG8n$1pm4M',#13,$,$,(#1653),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -397,7 +397,7 @@ DATA;
 #1753= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1750));
 #1759= IFCPRODUCTDEFINITIONSHAPE($,$,(#1753));
 #1763= IFCVIRTUALGRIDINTERSECTION((#200,#183),(0.,0.,0.));
-#1766= IFCGRIDPLACEMENT(#1763,$);
+#1766= IFCGRIDPLACEMENT(#280,#1763,$);
 #1769= IFCRELASSOCIATESMATERIAL('0AJItPgPX0NuEgejqR7P8f',#13,$,$,(#1716),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -411,7 +411,7 @@ DATA;
 #1816= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1813));
 #1822= IFCPRODUCTDEFINITIONSHAPE($,$,(#1816));
 #1826= IFCVIRTUALGRIDINTERSECTION((#200,#166),(0.,0.,0.));
-#1829= IFCGRIDPLACEMENT(#1826,$);
+#1829= IFCGRIDPLACEMENT(#280,#1826,$);
 #1832= IFCRELASSOCIATESMATERIAL('0o7iyvBu15aeZ8UMrdLbAj',#13,$,$,(#1779),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -425,7 +425,7 @@ DATA;
 #1879= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1876));
 #1885= IFCPRODUCTDEFINITIONSHAPE($,$,(#1879));
 #1889= IFCVIRTUALGRIDINTERSECTION((#200,#149),(0.,0.,0.));
-#1892= IFCGRIDPLACEMENT(#1889,$);
+#1892= IFCGRIDPLACEMENT(#280,#1889,$);
 #1895= IFCRELASSOCIATESMATERIAL('2g0UVZDhT2OA5mAph2RRwW',#13,$,$,(#1842),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -439,7 +439,7 @@ DATA;
 #1942= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#1939));
 #1948= IFCPRODUCTDEFINITIONSHAPE($,$,(#1942));
 #1952= IFCVIRTUALGRIDINTERSECTION((#200,#132),(0.,0.,0.));
-#1955= IFCGRIDPLACEMENT(#1952,$);
+#1955= IFCGRIDPLACEMENT(#280,#1952,$);
 #1958= IFCRELASSOCIATESMATERIAL('3fel0v29z0yfIc72Hd$FLH',#13,$,$,(#1905),#354);
 
 /* Column with grid placement ---------------------------------------------- */
@@ -453,7 +453,7 @@ DATA;
 #2005= IFCSHAPEREPRESENTATION(#53,'Body','SweptSolid',(#2002));
 #2011= IFCPRODUCTDEFINITIONSHAPE($,$,(#2005));
 #2015= IFCVIRTUALGRIDINTERSECTION((#200,#115),(0.,0.,0.));
-#2018= IFCGRIDPLACEMENT(#2015,$);
+#2018= IFCGRIDPLACEMENT(#280,#2015,$);
 #2021= IFCRELASSOCIATESMATERIAL('2mtSsiV6DBBBqw1_FHq9yw',#13,$,$,(#1968),#354);
 
 /* Beam with local placement ----------------------------------------------- */
