@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION($,'2;1');
-FILE_NAME('structural_analysis_curve.ifc','2023-07-18',(''),(''),'Geometry Gym Pty Ltd','Geometry Gym Pty Ltd','');
+FILE_NAME('structural-curve-member.ifc','2023-07-18',(''),(''),'Geometry Gym Pty Ltd','Geometry Gym Pty Ltd','');
 FILE_SCHEMA(('IFC4X3'));
 ENDSEC;
 
