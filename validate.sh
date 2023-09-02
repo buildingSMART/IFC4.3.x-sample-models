@@ -8,6 +8,7 @@ schema_identifier=$(head /tmp/IFC4.3.x-output/IFC.exp | grep "SCHEMA " | cut -c 
 if [ ! -f $schema_identifier.py ]; then
 cp /tmp/IFC4.3.x-output/IFC.exp $schema_identifier.exp
 python -m ifcopenshell.express.rule_compiler $schema_identifier.exp $schema_identifier.py
+wget -O $(python -c 'import ifcopenshell.express.rule_compiler; print(ifcopenshell.express.rule_compiler.__file__)') https://raw.githubusercontent.com/IfcOpenShell/IfcOpenShell/eee844e2045e97d72f2266f620d6c7e43d7a353f/src/ifcopenshell-python/ifcopenshell/express/rule_compiler.py
 fi
 
 # clean up
