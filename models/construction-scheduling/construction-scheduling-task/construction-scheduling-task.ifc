@@ -16,7 +16,7 @@ FILE_NAME(
 	'IFC text editor',
 	'reference file created for the IFC4 specification');
 /* NOTE schema name to be replaced with 'IFC4' after the final release ------------------------- */
-FILE_SCHEMA(('IFC4'));
+FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 
 DATA;

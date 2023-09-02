@@ -2,7 +2,7 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition [notYetAssigned]','Option [Filter: VisibleElements]'),'2;1');
 FILE_NAME('grid placement.ifc','2013-07-13T10:17:34',('Architect'),('Building Designer Office'),'any','any','The authorising person');
-FILE_SCHEMA(('IFC4X3_ADD1'));
+FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 
 DATA;

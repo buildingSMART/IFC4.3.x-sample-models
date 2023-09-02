@@ -10,7 +10,7 @@ FILE_NAME(
 /* originating_system */ 'IFCExamples v0.0.1.0',
 /* authorization */ 'None');
 
-FILE_SCHEMA (('IFC4'));
+FILE_SCHEMA (('IFC4X3_ADD2'));
 ENDSEC;
 
 DATA;

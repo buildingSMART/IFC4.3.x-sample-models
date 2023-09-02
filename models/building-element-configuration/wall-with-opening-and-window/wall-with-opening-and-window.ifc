@@ -11,7 +11,7 @@ FILE_NAME (
         'IFC Engine DLL version 1.03 beta',
         'Geometry example',
         'The authorising person');
-FILE_SCHEMA (('IFC4'));
+FILE_SCHEMA (('IFC4X3_ADD2'));
 ENDSEC;
 DATA;
 

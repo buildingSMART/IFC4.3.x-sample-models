@@ -10,7 +10,7 @@ FILE_NAME(
 /* originating_system */ 'Unknown Application',
 /* authorization */ 'None');
 
-FILE_SCHEMA (('IFC4'));
+FILE_SCHEMA (('IFC4X3_ADD2'));
 ENDSEC;
 
 DATA;
