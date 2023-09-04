@@ -2,12 +2,12 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition [notYetAssigned]'),'2;1');
 FILE_NAME(
-/* name */ 'advanced_brep.ifc',
+/* name */ 'cube-advanced-brep.ifc',
 /* time_stamp */ '2012-05-31T11:53:44',
-/* author */ ('Jon'),
-/* organization */ ('Unknown'),
-/* preprocessor_version */ 'ssiIFC - Grasshopper Plug-in by Geometry Gym Pty Ltd',
-/* originating_system */ 'ssiIFC - Grasshopper Plug-in by Geometry Gym Pty Ltd',
+/* author */ ('redacted'),
+/* organization */ ('redacted'),
+/* preprocessor_version */ 'redacted',
+/* originating_system */ 'redacted',
 /* authorization */ 'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));
@@ -17,11 +17,11 @@ DATA;
 
 /* single owner history sufficient if not otherwise required by the view definition ------------ */
 /* provides the person and application creating the data set, and the time it is created ------- */
-#1= IFCAPPLICATION(#2,'0.5.35.0','ssiRhinoIFC - Geometry Gym Plug-in for Rhino3d','ssiRhinoIFC');
-#2= IFCORGANIZATION($,'Geometry Gym Pty Ltd',$,$,$);
+#1= IFCAPPLICATION(#2,'redacted','redacted','redacted');
+#2= IFCORGANIZATION($,'redacted',$,$,$);
 #3= IFCPERSONANDORGANIZATION(#4,#5,$);
-#4= IFCPERSON($,'Jon',$,$,$,$,$,$);
-#5= IFCORGANIZATION($,'UNKNOWN',$,$,$);
+#4= IFCPERSON($,'redacted',$,$,$,$,$,$);
+#5= IFCORGANIZATION($,'redacted',$,$,$);
 #6= IFCOWNERHISTORY(#3,#1,$,.ADDED.,1338465163,$,$,1338465163);
 
 /* each IFC data set containing geometry has to define a geometric representation context ------ */

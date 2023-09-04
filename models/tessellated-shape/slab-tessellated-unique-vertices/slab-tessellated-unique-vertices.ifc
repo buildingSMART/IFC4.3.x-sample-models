@@ -4,12 +4,12 @@ HEADER;
 /* ---------------------------------------------------------------------------------------------- */
 FILE_DESCRIPTION(('ViewDefinition [ReferenceView_V1.0]'),'2;1');
 FILE_NAME(
-/* name */                 'slab_hexagon_unique-vertices',
+/* name */                 'slab-tessellated-unique-vertices.ifc',
 /* time_stamp */           '2014-07-10T18:45:13',
-/* author */              ('Jon Mirtschin'),
-/* organization */        ('Geometry Gym'),
-/* preprocessor_version */ 'ggGrasshopperIFC',
-/* originating_system */   'ggGrasshopperIFC',
+/* author */              ('redacted'),
+/* organization */        ('redacted'),
+/* preprocessor_version */ 'redacted',
+/* originating_system */   'redacted',
 /* authorization */        'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));

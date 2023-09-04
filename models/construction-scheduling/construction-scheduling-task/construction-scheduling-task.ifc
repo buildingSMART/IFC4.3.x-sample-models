@@ -8,24 +8,23 @@ FILE_DESCRIPTION(
 	,'2;1');
 /* NOTE standard header information according to ISO 10303-21 ---------------------------------- */
 FILE_NAME(
-	'IfcTask.ifc',
+	'construction-scheduling-task.ifc',
 	'2010-09-23T23:27:15',
-	('Tim Chipman'),
-	('buildingSMART International'),
-	'IFC text editor',
-	'IFC text editor',
+	('redacted'),
+	('redacted'),
+	'redacted',
+	'redacted',
 	'reference file created for the IFC4 specification');
-/* NOTE schema name to be replaced with 'IFC4' after the final release ------------------------- */
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 
 DATA;
 /* Project context ----------------------------------------------------------------------------- */
 /* required for every IFC data file ------------------------------------------------------------ */
-#1= IFCAPPLICATION(#2,'0.7','Constructivity','CONSTRUCTIVITY');
-#2= IFCORGANIZATION($,'Constructivity.com LLC',$,$,$);
-#3= IFCPERSON('','Chipman','Tim',$,$,$,$,$);
-#4= IFCORGANIZATION($,'buildingSMART',$,$,$);
+#1= IFCAPPLICATION(#2,'redacted','redacted','redacted');
+#2= IFCORGANIZATION($,'redacted',$,$,$);
+#3= IFCPERSON('','redacted','redacted',$,$,$,$,$);
+#4= IFCORGANIZATION($,'redacted',$,$,$);
 #5= IFCPERSONANDORGANIZATION(#3,#4,$);
 /* Project units ------------------------------------------------------------------------------- */
 /* this project is based on imperial units (inch) ---------------------------------------------- */

@@ -6,11 +6,11 @@ FILE_DESCRIPTION(
 /* implementation level */ '2;1');
 
 FILE_NAME(
-/* name */ 'GeoReference.ifc',
+/* name */ 'geographic-referencing-utm.ifc',
 /* time_stamp */ '2017-07-10T15:03:00',
-/* author */ ('Geiger'),
-/* organization */ ('KIT'),
-/* preprocessor_version */ 'Handmade',
+/* author */ ('redacted'),
+/* organization */ ('redacted'),
+/* preprocessor_version */ 'redacted',
 /* originating_system */ '',
 /* authorisation */ 'none');
 
@@ -45,10 +45,10 @@ DATA;
 #5046= IFCRELAGGREGATES('3INy2PAPGPJ8Dpwhrq610o',#100005,'All stories',$,#100023,(#5043));
 
 /* Person, Org, App, Project */
-#100001= IFCPERSON($,'AGeiger',$,$,$,$,$,$);
-#100002= IFCORGANIZATION($,'KIT',$,$,$);
+#100001= IFCPERSON($,'redacted',$,$,$,$,$,$);
+#100002= IFCORGANIZATION($,'redacted',$,$,$);
 #100003= IFCPERSONANDORGANIZATION(#100001,#100002,$);
-#100004= IFCAPPLICATION(#100002,'Unknown','IFCExplorer','Unknown');
+#100004= IFCAPPLICATION(#100002,'redacted','redacted','redacted');
 #100005= IFCOWNERHISTORY(#100003,#100004,$,.NOTDEFINED.,$,$,$,1122650864);
 #100010= IFCPROJECT('01JwSt5ycUHvKFlMZUleKS',#100005,'Notch',$,$,$,$,(#100011),#100060);
 #100011= IFCGEOMETRICREPRESENTATIONCONTEXT($,'Model',3,1.0E-5,#100040,$);

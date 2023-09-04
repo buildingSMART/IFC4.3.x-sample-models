@@ -1,17 +1,17 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION($,'2;1');
-FILE_NAME('structural-curve-member.ifc','2023-07-18',(''),(''),'Geometry Gym Pty Ltd','Geometry Gym Pty Ltd','');
+FILE_NAME('structural-curve-member.ifc','2023-07-18',(''),(''),'redacted','redacted','');
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 
 DATA;
 
 /* Owner history user and application */
-#1= IFCAPPLICATION(#2,'0.8','Constructivity','CONSTRUCTIVITY');
-#2= IFCORGANIZATION($,'Constructivity.com LLC',$,$,$);
-#3= IFCPERSON('Tim',$,$,$,$,$,$,$);
-#4= IFCORGANIZATION($,'Tim-PC',$,$,$);
+#1= IFCAPPLICATION(#2,'redacted','redacted','redacted');
+#2= IFCORGANIZATION($,'redacted',$,$,$);
+#3= IFCPERSON('redacted',$,$,$,$,$,$,$);
+#4= IFCORGANIZATION($,'redacted',$,$,$);
 #5= IFCPERSONANDORGANIZATION(#3,#4,$);
 
 /* Units */

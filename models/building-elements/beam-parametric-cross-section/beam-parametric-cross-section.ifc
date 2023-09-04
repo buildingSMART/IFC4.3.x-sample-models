@@ -8,14 +8,13 @@ FILE_DESCRIPTION(
 	,'2;1');
 /* NOTE standard header information according to ISO 10303-21 ---------------------------------- */
 FILE_NAME(
-	'standard_case_element_beam.ifc',
+	'beam-parametric-cross-section.ifc',
 	'2011-11-07T18:00:00',
-	('Thomas Liebich'),
-	('buildingSMART International'),
-	'IFC text editor',
-	'IFC text editor',
+	('redacted'),
+	('redacted'),
+	'redacted',
+	'redacted',
 	'reference file created for the IFC4 specification');
-/* NOTE schema name to be replaced with 'IFC4' after the final release  ------------------------ */
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 
@@ -567,10 +566,10 @@ DATA;
 
 /* --------------------------------------------------------------------------------------------- */
 /* general entities required for all IFC data sets, defining the context for the exchange ------ */
-#100001= IFCPERSON($,'Liebich',$,$,$,$,$,$);
-#100002= IFCORGANIZATION($,'AEC3',$,$,$);
+#100001= IFCPERSON($,'redacted',$,$,$,$,$,$);
+#100002= IFCORGANIZATION($,'redacted',$,$,$);
 #100003= IFCPERSONANDORGANIZATION(#100001,#100002,$);
-#100004= IFCAPPLICATION(#100002,'Unknown','SDS/2 Version 6.300 on NT','Unknown');
+#100004= IFCAPPLICATION(#100002,'redacted','redacted','redacted');
 #100005= IFCOWNERHISTORY(#100003,#100004,$,.NOTDEFINED.,$,$,$,1320688800);
 #100010= IFCPROJECT('32DJhIf6esIeAOIlD4Xw2m',#100005,'Test model for beam cardinal points',$,$,$,$,(#100011),#100060);
 #100011= IFCGEOMETRICREPRESENTATIONCONTEXT($,'Model',3,1.0E-5,#100040,$);

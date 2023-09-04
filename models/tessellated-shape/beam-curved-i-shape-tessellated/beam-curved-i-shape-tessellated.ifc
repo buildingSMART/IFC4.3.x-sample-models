@@ -1,16 +1,14 @@
 ISO-10303-21;
 HEADER;
 
-/* use the correct model view definition for the IFC4 reference view                              */
-/* ---------------------------------------------------------------------------------------------- */
 FILE_DESCRIPTION(('ViewDefinition [ReferenceView_V1.0]'),'2;1');
 FILE_NAME(
-/* file name */            'beam_curved_tessellated_reference-view.ifc',
+/* file name */            'beam-curved-i-shape-tessellated.ifc',
 /* time_stamp */           '2014-06-09T14:06:08',
-/* author */              ('Jon Mirtschin'),
-/* organization */        ('Geometry Gym'),
-/* preprocessor_version */ 'ggGrasshopperIFC',
-/* originating_system */   'ggGrasshopperIFC',
+/* author */              ('redacted'),
+/* organization */        ('redacted'),
+/* preprocessor_version */ 'redacted',
+/* originating_system */   'redacted',
 /* authorization */        'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));

@@ -1,16 +1,16 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition [notYetAssigned]','Option [Filter: VisibleElements]'),'2;1');
-FILE_NAME('grid placement.ifc','2013-07-13T10:17:34',('Architect'),('Building Designer Office'),'any','any','The authorising person');
+FILE_NAME('grid-placement.ifc','2013-07-13T10:17:34',('redacted'),('redacted'),'redacted','redacted','redacted');
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 
 DATA;
 /* Owner history as dummy information, maybe omitted  ---------------------- */
-#1= IFCORGANIZATION($,'Name',$,$,$);
-#5= IFCAPPLICATION(#1,'Version','Name','Identifier');
-#6= IFCPERSON($,'Family name','Given name',$,$,$,$,$);
-#8= IFCORGANIZATION($,'Name',$,$,$);
+#1= IFCORGANIZATION($,'redacted',$,$,$);
+#5= IFCAPPLICATION(#1,'redacted','redacted','redacted');
+#6= IFCPERSON($,'redacted','redacted',$,$,$,$,$);
+#8= IFCORGANIZATION($,'redacted',$,$,$);
 #12= IFCPERSONANDORGANIZATION(#6,#8,$);
 #13= IFCOWNERHISTORY(#12,#5,$,.NOTDEFINED.,$,$,$,1247473054);
 

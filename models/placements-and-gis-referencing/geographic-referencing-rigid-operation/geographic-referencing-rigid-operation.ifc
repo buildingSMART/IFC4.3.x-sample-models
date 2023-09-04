@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION (('ViewDefinition[Alignment-basedReferenceView]'), '2;1');
-FILE_NAME ('Georeferencing_GEOGCS(EPSG)-RO.ifc', '2022-11-16T10:37:00', (), (), '(before manual edit) ACCA_IFC.dll Version 500', 'ACCA usBIM.infra', $);
+FILE_NAME ('geographic-referencing-rigid-operation.ifc', '2022-11-16T10:37:00', (), (), 'redacted', 'redacted', $);
 FILE_SCHEMA (('IFC4X3_ADD2'));
 ENDSEC;
 DATA;

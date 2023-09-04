@@ -8,14 +8,13 @@ FILE_DESCRIPTION(
 	,'2;1');
 /* NOTE standard header information according to ISO 10303-21 ---------------------------------- */
 FILE_NAME(
-	'mapped_shape_transformation.ifc',
+	'mapped-shape-with-transformation.ifc',
 	'2011-11-07T18:00:00',
-	('Thomas Liebich'),
-	('buildingSMART International'),
-	'IFC text editor',
-	'IFC text editor',
+	('redacted'),
+	('redacted'),
+	'redacted',
+	'redacted',
 	'reference file created for the IFC4 specification');
-/* NOTE schema name to be replaced with 'IFC4' after the final release  ------------------------ */
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
 
@@ -28,9 +27,9 @@ DATA;
 /* provides the person and application creating the data set, and the time it is created ------- */
 #110= IFCOWNERHISTORY(#111,#115,$,.ADDED.,1320688800,$,$,1320688800);
 #111= IFCPERSONANDORGANIZATION(#112,#113,$);
-#112= IFCPERSON($,'Liebich','Thomas',$,$,$,$,$);
-#113= IFCORGANIZATION($,'buildingSMART International',$,$,$);
-#115= IFCAPPLICATION(#113,'1.0','IFC text editor','ifcTE');
+#112= IFCPERSON($,'redacted','redacted',$,$,$,$,$);
+#113= IFCORGANIZATION($,'redacted',$,$,$);
+#115= IFCAPPLICATION(#113,'redacted','redacted','redacted');
 
 /* each IFC data set containing geometry has to define a geometric representation context ------ */
 /* the attribute 'ContextType' has to be 'Model' for 3D model geometry ------------------------- */

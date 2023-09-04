@@ -2,12 +2,12 @@ ISO-10303-21;
 HEADER;
 FILE_DESCRIPTION(('ViewDefinition [DesignTransferView_V1]'),'2;1');
 FILE_NAME(
-/* name */ 'reinforcing-stirrup',
+/* name */ 'reinforcing-stirrup.ifc',
 /* time_stamp */ '2016-02-04T08:47:55',
-/* author */ ('Jon'),
-/* organization */ ('Unknown'),
-/* preprocessor_version */ 'GeomGymIFC by Geometry Gym Pty Ltd',
-/* originating_system */ 'Unknown Application',
+/* author */ ('redacted'),
+/* organization */ ('redacted'),
+/* preprocessor_version */ 'redacted',
+/* originating_system */ 'redacted',
 /* authorization */ 'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));
@@ -23,10 +23,10 @@ DATA;
 /* defines the default building (as required as the minimum spatial element)  */
 #50= IFCBUILDING('39t4Pu3nTC4ekXYRIHJB9W',#56,'IfcBuilding',$,$,$,$,$,$,$,$,$);
 #51= IFCPERSONANDORGANIZATION(#52,#53,$);
-#52= IFCPERSON('Jon','Jon',$,$,$,$,$,$);
-#53= IFCORGANIZATION($,'Geometry Gym Pty Ltd',$,$,$);
-#54= IFCAPPLICATION(#55,'0.0.1.0','ggRhinoIFC - Geometry Gym Plug-in for Rhino3d','ggRhinoIFC');
-#55= IFCORGANIZATION($,'Geometry Gym Pty Ltd',$,$,$);
+#52= IFCPERSON('redacted','redacted',$,$,$,$,$,$);
+#53= IFCORGANIZATION($,'redacted',$,$,$);
+#54= IFCAPPLICATION(#55,'redacted','redacted','redacted');
+#55= IFCORGANIZATION($,'redacted',$,$,$);
 #56= IFCOWNERHISTORY(#51,#54,$,.ADDED.,1454575675,$,$,1454575675);
 #57= IFCRELCONTAINEDINSPATIALSTRUCTURE('3Sa3dTJGn0H8TQIGiuGQd5',#56,'Building','Building Container for Elements',(#221),#50);
 #58= IFCAXIS2PLACEMENT3D(#2,$,$);

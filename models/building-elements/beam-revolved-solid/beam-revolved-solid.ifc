@@ -5,12 +5,12 @@ HEADER;
 /* ---------------------------------------------------------------------------------------------- */
 FILE_DESCRIPTION(('ViewDefinition [DesignTransferView_V1.0]'),'2;1');
 FILE_NAME(
-/* name */                 'beam_curved_revolved-solid_design-handover-view.ifc',
+/* name */                 'beam-revolved-solid.ifc',
 /* time_stamp */           '2014-06-09T14:06:08',
-/* author */              ('Jon Mirtschin'),
-/* organization */        ('Geometry Gym'),
-/* preprocessor_version */ 'ggGrasshopperIFC',
-/* originating_system */   'ggGrasshopperIFC',
+/* author */              ('redacted'),
+/* organization */        ('redacted'),
+/* preprocessor_version */ 'redacted',
+/* originating_system */   'redacted',
 /* authorization */        'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));
@@ -20,11 +20,11 @@ DATA;
 
 /* IfcOwnerHistory is in scope of the IFC4 reference view required for project                    */
 /* ---------------------------------------------------------------------------------------------- */
-#1= IFCAPPLICATION(#2,'1.0.46.0','Geometry Gym Plug-in for Grasshopper3d','ggGrasshopperIFC');
-#2= IFCORGANIZATION($,'Geometry Gym Pty Ltd',$,$,$);
+#1= IFCAPPLICATION(#2,'redacted','redacted','redacted');
+#2= IFCORGANIZATION($,'redacted',$,$,$);
 #3= IFCPERSONANDORGANIZATION(#4,#5,$);
-#4= IFCPERSON($,'Mirtschin','Jon',$,$,$,$,$);
-#5= IFCORGANIZATION($,'Geometry Gym Pty Ltd',$,$,$);
+#4= IFCPERSON($,'redacted','redacted',$,$,$,$,$);
+#5= IFCORGANIZATION($,'redacted',$,$,$);
 #6= IFCOWNERHISTORY(#3,#1,$,.ADDED.,1402094752,$,$,1402094752);
 
 
