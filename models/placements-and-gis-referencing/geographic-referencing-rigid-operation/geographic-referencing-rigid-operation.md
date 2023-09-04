@@ -1,0 +1,2 @@
+This file is model in as adaption of one of the examples in Jaud et al. (2022) 'Georeferencing in IFC: meeting the requirements of infrastructure and building industries' https://www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net/X-4-W2-2022/145/2022/ and uses IfcGeographicCRS
+in conjunction with IfcRigidOperation.
