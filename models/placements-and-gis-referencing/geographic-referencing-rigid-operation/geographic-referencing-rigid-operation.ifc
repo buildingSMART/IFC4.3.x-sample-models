@@ -7,7 +7,7 @@ ENDSEC;
 DATA;
 
 /*The basis definitions of an IfcProject and IfcGeometricRepresentationContext */
-#1=IFCPROJECT('2DAvEupIz0HQr73cMaawtY',$, $, $, $, $, $, (#21), #11);
+#1=IFCPROJECT('2DAvEupIz0HQr73cMaawtY',$, 'Project name', $, $, $, $, (#21), #11);
 #2=IFCDIRECTION((1., 0., 0.));
 #4=IFCDIRECTION((0., 0., 1.));
 #5=IFCCARTESIANPOINT((0., 0., 0.));
@@ -22,8 +22,8 @@ DATA;
 #22=IFCAXIS2PLACEMENT3D(#5, #4, #2);
 
 /* Georeferencing data of an IFC dataset in a Geographic CRS. The site with this context lies at the Bell tower on the island of Lake Bled in Slovenia.*/
-#301=IFCGEOGRAPHICCRS('EPSG:4258', 'ETRS89', 'EPSG:6258', 'EPSG:8901', #15);
-#302=IFCRIGIDOPERATION(#21, #301,IFCPLANEANGLEMEASURE(14.0902217),IFCPLANEANGLEMEASURE(46.3623297), 475.);
+#301=IFCGEOGRAPHICCRS('EPSG:4258', 'ETRS89', 'EPSG:6258', 'EPSG:8901', #15, #12);
+#302=IFCRIGIDOPERATION(#21, #301, IFCPLANEANGLEMEASURE(14.0902217), IFCPLANEANGLEMEASURE(46.3623297), 475.);
 
 
 /* IfcSite definition*/
