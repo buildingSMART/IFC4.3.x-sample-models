@@ -35,8 +35,9 @@ def test_alignment_final_segment_length(filename_alignment):
 def test_alignment_project_aggregation(filename_alignment):
     filename, alignment = filename_alignment
     while True:
+        previous = alignment
         try:
-            previous, alignment = alignment, alignment.Decomposes[0].RelatingObject
+            alignment = alignment.Decomposes[0].RelatingObject
         except IndexError:
             alignment = None
         if alignment and alignment.is_a("IfcProject"):
@@ -48,4 +49,4 @@ def test_alignment_project_aggregation(filename_alignment):
 
 
 if __name__ == "__main__":
-    pytest.main(["-sx", __file__])
+    sys.exit(pytest.main(["-s", __file__]))
