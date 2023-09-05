@@ -1,3 +1,5 @@
+set -e
+
 # obtain most recent express schema
 git clone --depth 1 https://github.com/buildingSMART/IFC4.3.x-output /tmp/IFC4.3.x-output
 
@@ -22,3 +24,5 @@ find models -name '*.ifc' -exec perl -pi -e "s/(?<=FILE_SCHEMA \(\(')IFC\w+/$sch
 
 # validate models
 find models -name '*.ifc' -print0 | xargs -0 -n1 python ifc-pipeline-validation/application/validate.py
+
+python test/alignment_tests.py $schema_identifier
