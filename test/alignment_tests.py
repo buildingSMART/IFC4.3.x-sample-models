@@ -15,12 +15,20 @@ filenames = glob.glob(
 )
 files = list(map(ifcopenshell.open, filenames))
 alignments = [f.by_type("IfcAlignment") for f in files]
-pairs = [
+fn_alignment_pairs = [
     (os.path.basename(fn), al) for fn, als in zip(filenames, alignments) for al in als
 ]
+curve_measures_roles = [
+    ('IfcCurveSegment', 'SegmentStart'),
+    ('IfcCurveSegment', 'SegmentLength'),
+    ('IfcDirectrixCurveSweptAreaSolid', 'StartParam'),
+    ('IfcDirectrixCurveSweptAreaSolid', 'EndParam'),
+    ('IfcPointByDistanceExpression', 'DistanceAlong')
+]
+fn_inst_value_tuples = [[[(os.path.basename(fn), inst, getattr(inst, y)) for inst in f.by_type(x)] for x, y in curve_measures_roles] for fn, f in zip(filenames, files)]
+fn_inst_value_tuples = sum(sum(fn_inst_value_tuples, []), [])
 
-
-@pytest.mark.parametrize("filename_alignment", pairs)
+@pytest.mark.parametrize("filename_alignment", fn_alignment_pairs)
 def test_alignment_final_segment_length(filename_alignment):
     filename, alignment = filename_alignment
     horizontal = alignment.IsNestedBy[0].RelatedObjects[0]
@@ -31,7 +39,7 @@ def test_alignment_final_segment_length(filename_alignment):
     ), f"In {filename}, {alignment} has final segment length {segment_length}"
 
 
-@pytest.mark.parametrize("filename_alignment", pairs)
+@pytest.mark.parametrize("filename_alignment", fn_alignment_pairs)
 def test_alignment_project_aggregation(filename_alignment):
     filename, alignment = filename_alignment
     while True:
@@ -47,6 +55,10 @@ def test_alignment_project_aggregation(filename_alignment):
         else:
             assert False, f"In {filename}, {previous} decomposes {alignment}"
 
+@pytest.mark.parametrize("fn_inst_value", fn_inst_value_tuples)
+def test_curve_measure_valuation(fn_inst_value):
+    fn, inst, value = fn_inst_value
+    assert value.is_a() == "IfcLengthMeasure", f"In {fn}, {inst} value is of type {value.is_a()}"
 
 if __name__ == "__main__":
     sys.exit(pytest.main(["-s", __file__]))
