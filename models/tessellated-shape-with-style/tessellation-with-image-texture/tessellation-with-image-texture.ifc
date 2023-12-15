@@ -1,6 +1,6 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION($,'2;1');
+FILE_DESCRIPTION((''),'2;1');
 FILE_NAME('tessellation-with-image-texture.ifc','2016-05-06T03:47:49',(''),(''),'redacted','redacted','');
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
