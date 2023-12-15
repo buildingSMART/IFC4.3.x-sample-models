@@ -1,6 +1,6 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION($,'2;1');
+FILE_DESCRIPTION((''),'2;1');
 FILE_NAME('structural-curve-member.ifc','2023-07-18',(''),(''),'redacted','redacted','');
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;
