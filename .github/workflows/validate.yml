@@ -22,12 +22,8 @@ jobs:
         python -m pip install --upgrade pip
         pip install --user pyparsing lark-parser==0.12.0 networkx requests sqlalchemy sqlalchemy-utils pytest
         mkdir -p ~/.local/lib/python3.10/site-packages
-        wget https://s3.amazonaws.com/ifcopenshell-builds/ifcopenshell-python-310-v0.7.0-fc50bdd-linux64.zip
+        wget https://s3.amazonaws.com/ifcopenshell-builds/ifcopenshell-python-310-v0.7.0-f7c03db-linux64.zip
         unzip ifcopenshell-python-310-v0.7.0-fc50bdd-linux64.zip -d ~/.local/lib/python3.10/site-packages
-        wget -O ~/.local/lib/python3.10/site-packages/ifcopenshell/entity_instance.py https://raw.githubusercontent.com/IfcOpenShell/IfcOpenShell/7567971a32eb39e0a413240cc49010dbede7a89c/src/ifcopenshell-python/ifcopenshell/entity_instance.py
-        wget -O ~/.local/lib/python3.10/site-packages/ifcopenshell/express/rule_executor.py https://raw.githubusercontent.com/IfcOpenShell/IfcOpenShell/7567971a32eb39e0a413240cc49010dbede7a89c/src/ifcopenshell-python/ifcopenshell/express/rule_executor.py
-        sed -i s/f.schema_identifier/f.schema/ ~/.local/lib/python3.10/site-packages/ifcopenshell/express/rule_executor.py
-        wget -O $(python -c 'import ifcopenshell.express.rule_compiler; print(ifcopenshell.express.rule_compiler.__file__)') https://raw.githubusercontent.com/IfcOpenShell/IfcOpenShell/eee844e2045e97d72f2266f620d6c7e43d7a353f/src/ifcopenshell-python/ifcopenshell/express/rule_compiler.py
         git clone --depth 1 https://github.com/IfcOpenShell/step-file-parser
         pip install --user -r ./step-file-parser/requirements.in
     - name: Validate IFC example files
