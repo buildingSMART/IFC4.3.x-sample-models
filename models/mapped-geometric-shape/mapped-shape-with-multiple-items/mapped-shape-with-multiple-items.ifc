@@ -85,21 +85,21 @@ DATA;
 /* it contains four mapped items, each refering to the same representation map ----------------- */
 #1020= IFCSHAPEREPRESENTATION(#202,'Body','MappedRepresentation',(#1021,#1031,#1041,#1051));
 /* Cartesian transformation of the mapped item ------------------------------------------------- */
-/* all with rotation by 45' in xy plane and non uniform scaling: x=0.5, y=0.5, z=1.0 ----------- */
+/* all with rotation by 45' in xy plane and non uniform scaling: x=y=0.5, z=1.0 ---------------- */
 /* 1. mapped item at 0.,0.,0. of local object coordinate system -------------------------------- */
 #1021= IFCMAPPEDITEM(#5010,#1022);
-#1022= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#901,0.5,#904,0.5,1.);
+#1022= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#901,0.5,#904,$,1.);
 /* 2. mapped item at 1000.,0.,0. of local object coordinate system ----------------------------- */
 #1031= IFCMAPPEDITEM(#5010,#1032);
-#1032= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#1033,0.5,#904,0.5,1.);
+#1032= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#1033,0.5,#904,$,1.);
 #1033= IFCCARTESIANPOINT((1000.,0.,0.));
 /* 3. mapped item at 0.,1000.,0. of local object coordinate system ----------------------------- */
 #1041= IFCMAPPEDITEM(#5010,#1042);
-#1042= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#1043,0.5,#904,0.5,1.);
+#1042= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#1043,0.5,#904,$,1.);
 #1043= IFCCARTESIANPOINT((0.,1000.,0.));
 /* 4. mapped item at 1000.,1000.,0. of local object coordinate system -------------------------- */
 #1051= IFCMAPPEDITEM(#5010,#1052);
-#1052= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#1053,0.5,#904,0.5,1.);
+#1052= IFCCARTESIANTRANSFORMATIONOPERATOR3DNONUNIFORM(#908,#909,#1053,0.5,#904,$,1.);
 #1053= IFCCARTESIANPOINT((1000.,1000.,0.));
 
 /* --------------------------------------------------------------------------------------------- */
