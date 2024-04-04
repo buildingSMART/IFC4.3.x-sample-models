@@ -57,7 +57,7 @@ DATA;
 /* if the building is the uppermost spatial structure element it is assigned to the project ---- */
 #519= IFCRELAGGREGATES('2YBqaV_8L15eWJ9DA1sGmT',$,$,$,#100,(#500));
 
-/* shared coordinates - it is permissable to share common instances to reduce file size -------- */
+/* shared coordinates - it is permissible to share common instances to reduce file size -------- */
 #901= IFCCARTESIANPOINT((0.,0.,0.));
 #902= IFCDIRECTION((1.,0.,0.));
 #903= IFCDIRECTION((0.,1.,0.));
