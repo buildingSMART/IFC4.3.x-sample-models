@@ -18,7 +18,7 @@ DATA;
 #11= IFCAXIS2PLACEMENT3D(#10,$,$);
 #12= IFCLOCALPLACEMENT($,#11);
 /* defines the default building (as required as the minimum spatial element)  */
-/* These profile curves are intentionally expressed in a more complicated manner than possible to test parameterization */
+/* These profile curves are intentionally expressed in a more complicated manner than necessary to test parameterization */
 #13= IFCBUILDING('39t4Pu3nTC4ekXYRIHJB9W',$,'IfcBuilding',$,$,#12,$,$,$,$,$,#18);
 #14= IFCRELCONTAINEDINSPATIALSTRUCTURE('3Sa3dTJGn0H8TQIGiuGQd5',$,'Building','Building Container for Elements',(#77,#131,#180),#13);
 #15= IFCCARTESIANPOINT((0.0,0.0,0.0));
