@@ -24,7 +24,7 @@ DATA;
 #15= IFCCARTESIANPOINT((0.0,0.0,0.0));
 #16= IFCAXIS2PLACEMENT3D(#15,$,$);
 #18= IFCPOSTALADDRESS($,$,$,$,('Unknown'),$,'Unknown',$,'Unknown','Unknown');
-/* general entities required for all IFC sets, defining the context for the exchange */
+/* general entities required for all IFC data sets, defining the context for the exchange */
 #20= IFCPROJECT('0$WU4A9R19$vKWO$AdOnKA',$,'IfcProject',$,$,$,$,(#28),#21);
 #21= IFCUNITASSIGNMENT((#22,#23,#24,#25,#26));
 #22= IFCSIUNIT(*,.LENGTHUNIT.,.MILLI.,.METRE.);
