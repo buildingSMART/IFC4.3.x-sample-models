@@ -4,7 +4,7 @@
 
 Figure 483 — Tessellation with textures
 
-![SurfaceTexture](../../figures/examples/texture.png)
+![SurfaceTexture](./texture.png)
 
 Figure 484 — Texture image for use in this model
 
