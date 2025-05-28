@@ -11,7 +11,7 @@ FILE_NAME(
 /* author */ ('redacted'),
 /* organization */ ('redacted'),
 /* preprocessor_version */ 'redacted',
-/* originating_system */ '',
+/* originating_system */ 'redacted - redacted - 3.14159',
 /* authorisation */ 'none');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));

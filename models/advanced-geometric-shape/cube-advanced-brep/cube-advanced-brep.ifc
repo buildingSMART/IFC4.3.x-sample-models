@@ -1,13 +1,13 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION(('ViewDefinition [notYetAssigned]'),'2;1');
+FILE_DESCRIPTION(('ViewDefinition [NotAssigned]'),'2;1');
 FILE_NAME(
 /* name */ 'cube-advanced-brep.ifc',
 /* time_stamp */ '2012-05-31T11:53:44',
 /* author */ ('redacted'),
 /* organization */ ('redacted'),
 /* preprocessor_version */ 'redacted',
-/* originating_system */ 'redacted',
+/* originating_system */ 'redacted - redacted - 3.14159',
 /* authorization */ 'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));

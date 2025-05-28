@@ -1,8 +1,8 @@
 ISO-10303-21;
 HEADER;
-/* NOTE a valid model view name has to be asserted, replacing 'notYetAssigned' ----------------- */
+/* NOTE a valid model view name has to be asserted, replacing 'NotAssigned' ----------------- */
 FILE_DESCRIPTION(
-    ( 'ViewDefinition [notYetAssigned]'
+    ( 'ViewDefinition [ReferenceView]'
      ,'Comment [manual creation of example file]'
 	)
 	,'2;1');
@@ -13,7 +13,7 @@ FILE_NAME(
 	('redacted'),
 	('redacted'),
 	'redacted',
-	'redacted',
+	'redacted - redacted - 3.14159',
 	'reference file created for the IFC4 specification');
 FILE_SCHEMA(('IFC4X3_ADD2'));
 ENDSEC;

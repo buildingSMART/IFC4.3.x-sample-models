@@ -2,14 +2,14 @@ ISO-10303-21;
 HEADER;
 /* use the correct model view definition for the IFC4 reference view                              */
 /* ---------------------------------------------------------------------------------------------- */
-FILE_DESCRIPTION(('ViewDefinition [ReferenceView_V1.0]'),'2;1');
+FILE_DESCRIPTION(('ViewDefinition [ReferenceView]'),'2;1');
 FILE_NAME(
 /* name */                 'slab-tessellated-unique-vertices.ifc',
 /* time_stamp */           '2014-07-10T18:45:13',
 /* author */              ('redacted'),
 /* organization */        ('redacted'),
 /* preprocessor_version */ 'redacted',
-/* originating_system */   'redacted',
+/* originating_system */   'redacted - redacted - 3.14159',
 /* authorization */        'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));

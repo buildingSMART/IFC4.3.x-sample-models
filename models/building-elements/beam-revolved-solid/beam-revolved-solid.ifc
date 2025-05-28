@@ -1,16 +1,15 @@
 ISO-10303-21;
 HEADER;
 
-/* use the correct model view definition for the IFC4 design handover view                        */ 
 /* ---------------------------------------------------------------------------------------------- */
-FILE_DESCRIPTION(('ViewDefinition [DesignTransferView_V1.0]'),'2;1');
+FILE_DESCRIPTION(('ViewDefinition [NotAssigned]'),'2;1');
 FILE_NAME(
 /* name */                 'beam-revolved-solid.ifc',
 /* time_stamp */           '2014-06-09T14:06:08',
 /* author */              ('redacted'),
 /* organization */        ('redacted'),
 /* preprocessor_version */ 'redacted',
-/* originating_system */   'redacted',
+/* originating_system */   'redacted - redacted - 3.14159',
 /* authorization */        'None');
 
 FILE_SCHEMA (('IFC4X3_ADD2'));
