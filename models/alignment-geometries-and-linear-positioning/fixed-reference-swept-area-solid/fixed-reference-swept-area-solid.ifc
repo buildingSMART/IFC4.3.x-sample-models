@@ -1,7 +1,7 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION (('ViewDefinition [Ifc4X3NotAssigned]'), '2;1');
-FILE_NAME ('fixed-reference-swept-area-solid.ifc', '2021-05-31T10:24:22', (), (), 'redacted', $, $);
+FILE_DESCRIPTION (('ViewDefinition [Alignment-basedView]'), '2;1');
+FILE_NAME ('fixed-reference-swept-area-solid.ifc', '2021-05-31T10:24:22', (), (), 'redacted', 'redacted - redacted - 3.14159', '');
 FILE_SCHEMA (('IFC4X3_ADD2'));
 ENDSEC;
 DATA;
