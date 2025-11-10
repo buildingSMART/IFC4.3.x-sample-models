@@ -1,4 +1,4 @@
-﻿The CSG representation using Boolean operations is shown in Figure 468. It shows a bath as a santitary terminal.
+﻿The CSG representation using Boolean operations is shown in Figure 468. It shows a bath as a sanitary terminal.
 
 ![Bath](../../figures/examples/bath_csg.png)
 
