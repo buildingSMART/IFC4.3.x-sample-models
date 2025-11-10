@@ -1,4 +1,4 @@
-﻿The faceted brep representation is shown in Figure 471. It shows a basin as a santitary terminal. It corresponds to the previous example, showing the same basin as advanced brep representation. 
+﻿The faceted brep representation is shown in Figure 471. It shows a basin as a sanitary terminal. It corresponds to the previous example, showing the same basin as advanced brep representation. 
 
 
 ![Basin brep](../../figures/examples/basin_faceted_brep.png)
