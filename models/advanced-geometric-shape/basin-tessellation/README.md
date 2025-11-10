@@ -1,4 +1,4 @@
-﻿The triangulated tessellation is shown in Figure 472. It shows a basin as a santitary terminal. It corresponds to the two previous example, showing the same basin as advanced brep representation and as faceted brep representation. 
+﻿The triangulated tessellation is shown in Figure 472. It shows a basin as a sanitary terminal. It corresponds to the two previous example, showing the same basin as advanced brep representation and as faceted brep representation. 
 
 
 ![Basin tessellation](../../figures/examples/basin_tessellation.png)
