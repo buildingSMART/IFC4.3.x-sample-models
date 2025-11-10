@@ -1,4 +1,4 @@
-﻿The advanced brep representation using NURBS is shown in Figure 470. It shows a basin as a santitary terminal.
+﻿The advanced brep representation using NURBS is shown in Figure 470. It shows a basin as a sanitary terminal.
 
 ![Basin advanced brep](../../figures/examples/basin_advanced_brep.png)
 
