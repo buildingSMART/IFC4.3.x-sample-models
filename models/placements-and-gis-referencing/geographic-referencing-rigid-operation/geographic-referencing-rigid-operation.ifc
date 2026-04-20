@@ -1,6 +1,6 @@
 ISO-10303-21;
 HEADER;
-FILE_DESCRIPTION (('ViewDefinition[NotAssigned]'), '2;1');
+FILE_DESCRIPTION (('ViewDefinition[ReferenceView]'), '2;1');
 FILE_NAME ('geographic-referencing-rigid-operation.ifc', '2022-11-16T10:37:00', ('redacted'), ('redacted'), 'redacted', 'redacted - redacted - 3.14159', '');
 FILE_SCHEMA (('IFC4X3_ADD2'));
 ENDSEC;
@@ -20,6 +20,7 @@ DATA;
 #16=IFCDIMENSIONALEXPONENTS(0, 0, 0, 0, 0, 0, 0);
 #21=IFCGEOMETRICREPRESENTATIONCONTEXT($,'Model', 3, 1.E-6, #22, #7);
 #22=IFCAXIS2PLACEMENT3D(#5, #4, #2);
+#23=IFCGEOMETRICREPRESENTATIONSUBCONTEXT('Axis','Model',*,*,*,*,#21,$,.MODEL_VIEW.,$);
 
 /* Georeferencing data of an IFC dataset in a Geographic CRS. The site with this context lies at the Bell tower on the island of Lake Bled in Slovenia.*/
 #301=IFCGEOGRAPHICCRS('EPSG:4258', 'ETRS89', 'EPSG:6258', 'EPSG:8901', #15, #12);
